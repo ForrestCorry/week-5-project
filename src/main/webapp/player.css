@@ -1,0 +1,53 @@
+@CHARSET "ISO-8859-1";
+body::before{
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    background-image: url("http://img.wallpaperfolder.com/f/6634AC1E735D/beautiful-baltimore-ravens-pictures.jpg");
+    background-repeat: no-repeat;
+    background-position:50% 50%;
+    background-size: cover;
+}
+
+table{
+	width:50%;
+	height:50px;
+	font-size:1.25em;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+caption { 
+	text-align:center;
+	font-color:#000000;
+	padding-top: 4px;
+	margin: 10px
+}
+
+.button-links{
+  margin-top: 5%;
+}
+
+.form-horizontal{
+	position:absolute;
+	top:50%;
+	left:25%;
+	
+	width: 30%;
+}
+
+.button{
+  position:absolute;
+  bottom:5%;
+  left:40%;
+}
+
+p {
+    text-indent:30px;
+}
